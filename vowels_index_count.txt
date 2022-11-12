@@ -1,0 +1,44 @@
+#ps: count no of vowels in given string
+# with there index position
+
+s="count no. of each wovels in given string " \
+  "i.e.a,e,i,o,u with there index position"
+pa=[]
+pe=[]
+pi=[]
+po=[]
+pu=[]
+ca,ce,ci,co,cu=0,0,0,0,0
+for j,i in enumerate(s):
+    if i=='a':
+        pa.append(j)
+        ca+=1
+
+    elif i=='e':
+        pe.append(j)
+        ce += 1
+
+    elif i == 'i':
+        pi.append(j)
+        ci += 1
+
+    elif i == 'o':
+        po.append(j)
+        co += 1
+
+    elif i == 'u':
+        pu.append(j)
+        cu += 1
+print("a=",pa,":-",ca,"\ne=",pe,":-",ce,"\ni=",pi,":-",ci,
+          "\no=",po,":-",co,"\nu=",pu,":-",cu)
+
+
+
+
+output::
+a= [14, 45] :- 2 
+e= [13, 21, 31, 43, 47, 62, 64, 69] :- 8 
+i= [25, 29, 37, 41, 49, 56, 66, 75, 77] :- 9 
+o= [1, 7, 10, 19, 51, 73, 78] :- 7 
+u= [2, 53] :- 2
+

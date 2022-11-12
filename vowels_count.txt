@@ -1,0 +1,16 @@
+#ps: count no of vowels in given string
+
+
+s="count no. of each wovels in given string " \
+  "i.e.a,e,i,o,u "
+for i in enumerate(s):
+    a=s.count('a')
+    e=s.count('e')
+    i=s.count('i')
+    o=s.count('o')
+    u=s.count('u')
+print("a:",a,'e:',e,"i:",i,"o:",o,"u:",u)
+
+output::-
+a: 2 e: 5 i: 5 o: 5 u: 2
+
